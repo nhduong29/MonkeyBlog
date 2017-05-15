@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:b="http://bootsfaces.net/ui">
+    <h:head>
+        <title>Monkey Blog</title>
+        <meta name="author" content="The Author"></meta>
+        <h:outputStylesheet name="css/bootstrap.css"/>
+		<h:outputStylesheet name="css/clean-blog.css"/>
+    </h:head>
+    <h:body style="padding-top: 50px; padding-bottom: 20px;">
+        <b:navBar brand="Monkey Blog" brandHref="#" inverse="true" fixed="top">
+            <b:navbarLinks pull="right">
+                <b:navLink value="Home" href="#"></b:navLink>
+                <b:navLink value="About" href="#"></b:navLink>
+                <b:navLink value="Quotes"></b:navLink>
+                <b:dropMenu value="Category">
+                    <b:navLink value="Life style" href="#"></b:navLink>
+                    <b:navLink value="English in 10 minutes" href="#"></b:navLink>
+                    <b:navLink value="Something else here" href="#"></b:navLink>
+                </b:dropMenu>
+            </b:navbarLinks>
+        </b:navBar>
+        <header class="intro-header">
+            <b:container>
+                <b:row>
+	                <b:column col-lg="8" offset-lg="2" col-md="10" offset-md="1">
+	                    <div class="site-heading">
+	                        <h1>Monkey Blog</h1>
+	                        <hr class="small"></hr>
+	                        <span class="subheading">The best time for new beginnings, is now!</span>
+	                    </div>
+	                </b:column>
+	            </b:row>
+            </b:container>
+
+        </header>
+        <b:container>
+            <b:row>
+            	<b:column col-lg="8" offset-lg="2" col-md="10" offset-md="1">
+            		<div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Man must explore, and this is exploration at its greatest
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Problems look mighty small from 150 miles up
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
+                </div>
+            	</b:column>
+            </b:row>
+            <b:row>
+            	<b:column col-lg="8" offset-lg="2" col-md="10" offset-md="1">
+            		<div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Man must explore, and this is exploration at its greatest
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Problems look mighty small from 150 miles up
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
+                </div>
+            	</b:column>
+            </b:row>
+        </b:container>
+        
+        <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright Your Website 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </h:body>
+</html>
