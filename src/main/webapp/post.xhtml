@@ -8,13 +8,14 @@
 <h:body style="padding-top: 50px; padding-bottom: 20px;">
 	<ui:composition template="/template/monkey/monkey-template.xhtml">
 		<ui:define name="content">
-   			<header class="intro-header" style="background-image: url('#{resource['img/img1.jpg']}');">
+			<header class="intro-header"
+				style="background-image: url('#{resource['img/img1.jpg']}');">
 				<b:container>
 					<b:row>
 						<b:column col-lg="8" offset-lg="2" col-md="10" offset-md="1">
 							<div class="post-heading">
-		                        <h1>Skinny Slow Cooker Kale and Turkey Soup</h1>
-		                        <div class="post-title-container">
+								<h1>Skinny Slow Cooker Kale and Turkey Soup</h1>
+								<div class="post-title-container">
 									<div class="post-materials clearfix">
 										<span> <i class="fa fa-user"></i> <span
 											class="material-font"> by</span> <span class="author-name">
@@ -31,66 +32,61 @@
 										</span>
 									</div>
 								</div>
-		                    </div>
+							</div>
 						</b:column>
 					</b:row>
 				</b:container>
-	
+
 			</header>
 			<b:container>
 				<b:row>
-					<b:column col-lg="8" offset-lg="2" col-md="10" offset-md="1" class="blog-content">
+					<b:column col-lg="8" offset-lg="2" col-md="10" offset-md="1"
+						class="blog-content">
 						<div class="main section" id="main">
-							<div class="widget Blog" data-version="1" id="Blog1">
+							<div class="widget Blog" data-version="1" id="full-content">
 								<article>
-									<div class="text-justify">
-										Quisque in ornare mollis urna, a pharetra lectus bibendum
-										et. Aenean sodales cursus nulla, faucibus tempor nibh porta
-										id. Pellentesque non nibh eros. Nunc lectus lacus, interdum
-										et consequat et, varius sit amet ipsum. Fusce convallis,
-										lorem sit amet bibendum accumsan, mark example
-										consectetursup adipisicingsub nec mattis dui nisi a lacus.
-										Fusce non nisl pretium tellus eleifend tincidunt id id
+									<div class="post-full-content">
+										Quisque in ornare mollis urna, a pharetra lectus bibendum et.
+										Aenean sodales cursus nulla, faucibus tempor nibh porta id.
+										Pellentesque non nibh eros. Nunc lectus lacus, interdum et
+										consequat et, varius sit amet ipsum. Fusce convallis, lorem
+										sit amet bibendum accumsan, mark example consectetursup
+										adipisicingsub nec mattis dui nisi a lacus.
+										<blockquote>There is little difference in people,
+											but that little difference makes a big difference. That
+											little difference is attitude. The big difference is whether
+											it is positive or negative.</blockquote>
+										Fusce non nisl pretium tellus eleifend tincidunt id id lorem.
+										In hac habitasse platea dictumst. Pellentesque orci libero,
+										fringilla et ultrices ut, cursus eu ipsum. Aenean bibendum dui
+										quis pellentesque dictum. Cras Quisque in ornare mollis urna,
+										a pharetra lectus bibendum et. Aenean sodales cursus nulla,
+										faucibus tempor nibh porta id. Pellentesque non nibh eros.
+										Nunc lectus lacus, interdum et consequat et, varius sit amet
+										ipsum. Fusce convallis, lorem sit amet bibendum accumsan, mark
+										example consectetursup adipisicingsub nec mattis dui nisi a
+										lacus. Fusce non nisl pretium tellus eleifend tincidunt id id
 										lorem. In hac habitasse platea dictumst. Pellentesque orci
 										libero, fringilla et ultrices ut, cursus eu ipsum. Aenean
 										bibendum dui quis pellentesque dictum. Cras
 									</div>
-									<div class="blog-classic-share pull-right clearfix">
-										<div class="pull-left share-wrapper">
-											<span class="tag-title-post pull-left cshare-text">SHARE
-												: </span>
-											<div class="share-tools pull-left">
-												<ul>
-													<li><a href="#"
-														onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
-														target="_blank" title="Share on Facebook"><i
-															class="fa fa-facebook"></i></a></li>
-													<li><a
-														href="http://twitter.com/share?url=http://2016-themexpose.blogspot.in/2010/07/skinny-slow-cooker-kale-and-turkey-soup.html"
-														onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
-														target="_blank" title="Share on Twitter"><i
-															class="fa fa-twitter"></i></a></li>
-													<li><a
-														href="http://pinterest.com/pin/create/button/?source_url=http://2016-themexpose.blogspot.in/2010/07/skinny-slow-cooker-kale-and-turkey-soup.html"
-														onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
-														target="_blank" title="Share on Pinterest"><i
-															class="fa fa-pinterest"></i></a></li>
-													<li><a
-														href="https://plus.google.com/share?url=http://2016-themexpose.blogspot.in/2010/07/skinny-slow-cooker-kale-and-turkey-soup.html"
-														onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
-														target="_blank" title="Share on Google Plus"><i
-															class="fa fa-google-plus"></i></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
 								</article>
+								<div class="author">
+									<div class="author-avatar">
+										<img alt="Author" src="#{resource['img/avatar.jpg']}" />
+									</div>
+									<div class="author-infomation">
+										<p class="author-name">Rina Chaudhary</p>
+										<p class="author-meta">DevMastery.com | Consultant | Teacher</p>
+										<p class="date-post">Apr 20, 2017, <span class="time-read">5 min read</span></p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</b:column>
 				</b:row>
 			</b:container>
-   		</ui:define>
+		</ui:define>
 	</ui:composition>
 </h:body>
 <h:outputScript name="js/clean-blog.js" />

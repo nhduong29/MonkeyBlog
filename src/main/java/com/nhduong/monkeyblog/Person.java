@@ -1,4 +1,4 @@
-package de.beyondjava.bootsfaces.examples;
+package com.nhduong.monkeyblog;
 
 import java.util.Date;
 

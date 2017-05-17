@@ -81,6 +81,7 @@
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
     font-size: 55px;
+    line-height: 1.1;
     color: white;
   }
   .intro-header .post-heading .subheading {
@@ -365,6 +366,10 @@ style> <style id ='page-skin-1' type ='text/css'><!-- /*
 * Version: Full
 */ body#layout {
 	margin-top: 50px;
+}
+
+body{
+	background: #f9f9f9;
 }
 
 body#layout #header {
@@ -1033,8 +1038,11 @@ blockquote p {
 blockquote {
 	margin: 20px 0;
 	position: relative;
-	padding-left: 50px;
+	padding: 15px;
+	padding-left: 40px;
 	padding-top: 10px;
+	font-style: italic;
+	color: #928d8d;
 }
 
 blockquote:before {
@@ -4084,11 +4092,11 @@ p.form-submit {
 }
 
 .media-materials:hover img {
-	-webkit-transform: scale(1.03) rotate(0.1deg);
-	-moz-transform: scale(1.03) rotate(0.1deg);
-	-o-transform: scale(1.03) rotate(0.1deg);
-	-ms-transform: scale(1.03) rotate(0.1deg);
-	transform: scale(1.03) rotate(0.1deg);
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	-o-transform: scale(1.03) ;
+	-ms-transform: scale(1.03) ;
+	transform: scale(1.03) ;
 }
 
 .post-gallery {
@@ -5425,10 +5433,7 @@ body, body p {
 	font-weight: 400 !important;
 	color: #666 !important;
 }
-/* Background */
-body {
-	background: #f9f9f9 !important;
-}
+
 
 .logo img {
 	height: 48px !important;
@@ -6223,6 +6228,47 @@ none
 	text-decoration: none;
 }
 
+footer{
+	padding: 50px 0 20px 0;
+}
+
 footer#footer-copyright a {
 	color: #B2B2B2;
+}
+
+.post-full-content{
+	text-align: justify;
+	margin: 1em 0 1.5em;
+	line-height: 2em;
+	font-size: 16px;
+	word-spacing: 1px;
+	text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+#full-content .author .author-avatar, #full-content .author .author-infomation{
+	float: left;
+}
+
+#full-content  .author-avatar img{
+	width: 72px;
+	border-radius: 50%;
+}
+
+#full-content  .author-infomation{
+	margin-left: 15px;
+	margin-top: 7px;
+	line-height: 20px;
+}
+
+#full-content  #full-content  .author-infomation .author-name{
+	color: black !important;
+	font-size:15px;
+}
+
+#full-content  .author-infomation .author-meta, .author-infomation .date-post{
+	color: #9E9E9E !important;
+	font-size:13px;
 }
