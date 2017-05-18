@@ -7,10 +7,10 @@
 	xmlns:ui="http://java.sun.com/jsf/facelets">
 <body>
 	<ui:composition>
-		<b:navBar styleClass="navbar-custom" brand="Monkey Blog" brandHref="#"
+		<b:navBar styleClass="navbar-custom" brand="Monkey Blog #{helloBean.name}" brandHref="#"
 			inverse="true" fixed="top">
 			<b:navbarLinks pull="right">
-				<b:navLink value="Home" href="#"></b:navLink>
+				<b:navLink value="Home " href="#"></b:navLink>
 				<b:navLink value="About" href="#"></b:navLink>
 				<b:dropMenu value="Something else here">
 					<b:navLink value="Life style" href="#"></b:navLink>
