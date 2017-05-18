@@ -17,6 +17,6 @@ public class HelloBean implements Serializable {
 		return name;
 	}
 	public void setName(String name) {
-		this.name = "haha";
+		this.name = name;
 	}
 }
