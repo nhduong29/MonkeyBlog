@@ -46,6 +46,20 @@
 							<div class="widget Blog" data-version="1" id="full-content">
 								<article>
 									<div class="post-full-content">
+									<table class="tg">
+										<tr>
+											<th width="80">Person ID</th>
+											<th width="120">Person Name</th>
+											<th width="120">Person Country</th>
+										</tr>
+										<ui:repeat value="${personService.listPersons()}" var="person">
+											<tr>
+												<td>${person.id}</td>
+												<td>${person.name}</td>
+												<td>${person.country}</td>
+											</tr>
+										</ui:repeat>
+									</table>
 										Quisque in ornare mollis urna, a pharetra lectus bibendum et.
 										Aenean sodales cursus nulla, faucibus tempor nibh porta id.
 										Pellentesque non nibh eros. Nunc lectus lacus, interdum et
